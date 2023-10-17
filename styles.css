@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: color #f2f2f2;;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #2b6777;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #fff;
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #009688;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color:#ffeb3b;
+}
+
+.section {
+    margin: 20px;
+}
+
+.section h2 {
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.project {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #333;
+}
+
+footer {
+    background-color:#635252;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    
+    bottom: 0;
+    width: 100%;
+  
+}
+
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-image {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.client-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    max-width: 400px;
+    margin: 0 auto;
+    font color: black;
